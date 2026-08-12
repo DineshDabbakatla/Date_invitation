@@ -1,0 +1,11 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>A Little Surprise 🎁</title><link rel="stylesheet" href="style.css"></head><body><nav><a class="logo" href="index.html">Dinesh <span class="pink">❤️</span> Ujwala</a><a class="navbtn" href="index.html">🏠 Home</a></nav><main class="page">
+<h2>One Little Surprise 🎁</h2><p class="lead">Choose one. Whatever you pick, the real surprise is waiting at the end. 💕</p>
+<div class="mystery">
+<button class="box" data-m="🍕 A date with good food, because everything feels better when we're not hungry. 😌"><span>🎁</span>A Cozy Date</button>
+<button class="box" data-m="🌆 A slow evening, a little walk, endless talking and one of those moments where neither of us wants to go home."><span>🎁</span>A Sweet Evening</button>
+<button class="box" data-m="💖 Something simple: you, me, lots of smiles, and a memory we'll look back on someday."><span>🎁</span>A Memory</button>
+</div>
+<div id="surpriseReveal" class="reveal"></div>
+<div class="quote"><p>“Whatever we do, I already know my favorite part of the date: you being there.” 💕</p></div>
+<div style="text-align:center"><a class="btn" href="question.html">One last thing... 💌</a></div>
+</main><footer>Made with ❤️ by Dinesh for Ujwala</footer><script>document.querySelectorAll(".box").forEach(function(b){b.onclick=function(){surpriseReveal.style.display="block";surpriseReveal.textContent=b.dataset.m;}});</script></body></html>
